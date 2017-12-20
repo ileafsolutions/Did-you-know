@@ -24,8 +24,7 @@ class HomeViewController: UIViewController,JBDatePickerViewDelegate{
     lazy var dateFormatter: DateFormatter = {
         
         var formatter = DateFormatter()
-        formatter.dateFormat = "MMM dd"
-        //formatter.dateStyle = .medium
+        formatter.dateFormat = "MMM d"
         return formatter
     }()
     
